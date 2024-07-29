@@ -1,0 +1,173 @@
+/* for whole product page */
+*{
+    font-family: sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: all .2s linear;
+    text-transform: capitalize;
+    
+}/* for html tag part */
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+/* for body tag */
+body{
+    background: #eee;
+
+}
+
+/* for container class */
+.container{
+    max-width: 1200px;
+    margin:0 auto;
+    padding: 3rem 2rem;
+
+}
+
+
+/* for the items in product page */
+.container .product-container{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:2rem;
+
+}
+
+.container .product-container .product{
+    text-align: center;
+    padding: 3rem 2rem;
+    background:rgb(224, 226, 212);
+    box-shadow: 0 .5rem 1rem rgba(42, 13, 173, 0.1);
+    outline: .1rem solid rgb(122, 13, 13);
+    outline-offset: -1.5rem;
+    
+}
+
+.container .product-container .product:hover{
+    outline: .2rem solid #222;
+    outline-offset: 0;
+}
+.container .product-container .product img{
+    height: 25rem;
+}
+
+.container .product-container .product:hover img{
+    transform: scale(.9);
+
+}
+
+.container .product-container .product h3{
+    padding:.5rem 0;
+    font-size:2rem;
+    color:#444
+}
+
+.container .product-container .product .price{
+    color:#27ae60;
+}
+
+.container .product-container .product .price{
+    font-size: 2rem;
+    color:#444;
+}
+
+/* for nav bar */
+
+nav {
+    background-color: rgb(40, 118, 10);
+    width: 100%;
+    height: 100%;
+    
+}
+nav .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+nav .container .logo {
+    background: url(../images/logo.png);
+    cursor: pointer;
+    width: 129px;
+    transform: translate(0, -20%);
+    height: 107px;
+    display: flex;
+    justify-content: flex-start;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+    font-weight: 600;
+  
+}
+
+nav .container ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav .container li {
+    margin: 0 10px;
+}
+
+nav .container a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 15px;
+    transition: 0.4s;
+}
+
+nav .container a:hover {
+   color: #222;
+ }
+
+.main-page
+{
+  color: black;
+}
+
+.page{
+  width: 40%;
+  text-align: center;
+  border-style: double;
+
+}
+.page1{
+  width: 40%;
+  text-align: center;
+  border-style: double;
+}
+.page2{
+  width: 40%;
+  text-align: center;
+  border-style: double;
+}
+.page3{
+  width: 40%;
+  text-align: center;
+  border-style: double;
+}
+
+.page4{
+  width: 40%;
+  text-align: center;
+  border-style: double;
+}
+.side1{
+  display: flex;
+  justify-content: space-between;
+}
+.side2{
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,125 @@
+* { /*for all home page*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+  text-align: center;
+}
+    /* Navigation bar styles */
+    nav {
+        background-color: #333;
+        height: 50px;
+    }
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    nav li {
+        float: left;
+    }
+    nav a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    nav a:hover {
+        color: #111;
+    }
+.main-page {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   margin: 0 auto;
+   max-width: 1140px;
+}
+
+.side1, .side2 {
+   width: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+.page, .page1, .page2, .page3, .page4 {
+   background-color: grey;
+   box-shadow: 0px 2px 10px #ddd;
+   border-radius: 5px;
+   padding: 20px;
+   width: 450px;
+   text-align: center;
+   margin: 20px;
+   transition: all 0.3s ease-in-out;
+}
+
+.page:hover, .page1:hover, .page2:hover, .page3:hover, .page4:hover {
+   transform: translateY(-5px);
+   box-shadow: 0px 12px 20px #ddd;
+}
+
+h2 {
+   font-size: 24px;
+   font-weight: bold;
+   margin-bottom: 10px;
+   color: #C9A9A6;
+}
+
+p {
+   font-size: 14px;
+   margin-bottom: 20px;
+   line-height: 1.5;
+   color: white;
+}
+/*best seller section*/
+
+.b{
+  color: black;
+  font-weight: 400;
+  font-weight: bold;
+}
+.row{
+ margin: auto;
+ display: flex;
+ justify-content: space-around;
+}
+.box{
+  width: 320px;
+  height: 500px;
+  border-radius: 20px; 
+  background-color: grey;
+}
+.box img{
+  width: 300px;
+  height: 300px;
+}
+.box h3{
+  font-size: 25px;
+  padding-top: 10px;
+  color: #C9A9A6;
+}
+.box .btn{
+  width: 150px;
+  height: 40px;
+  background: #de5d83;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  font-size: 17px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.box .btn:hover
+{
+  background: #fff;
+  color: black;
+}
+.box:hover{
+   transform: translateY(-5px);
+   box-shadow: 0px 12px 20px #ddd;
+}
